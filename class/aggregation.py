@@ -8,6 +8,9 @@ class TestSkilz(unittest.TestCase):
         #
         # ===========================================
         salaries = [81_840, 3_000_000, 1, 2_000_000, 700_000]
+
+
+
         self.assertEqual(min_sal, 1)
 
         
@@ -23,6 +26,8 @@ class TestSkilz(unittest.TestCase):
          {'name': 'Pichai', 'salary': 81840},
          {'name': 'Hastings', 'salary': 1}]
 
+
+        
         self.assertEqual(most_name, {'name': 'Bezos', 'salary': 3000000} )
 
         #

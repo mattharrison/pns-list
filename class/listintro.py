@@ -16,9 +16,11 @@ class TestSkilz(unittest.TestCase):
         #
         # ===========================================
         vals_range = range(len(faang))
-        
+
+
         self.assertEqual(vals, [0,1,2,3,4])
         copy_f = faang
+
         # Remove Netflix from ``faang``
         #
         # ===========================================
