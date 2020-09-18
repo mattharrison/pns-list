@@ -7,6 +7,8 @@ class TestSkilz(unittest.TestCase):
         #
         # ===========================================
         faang = 'Netflix, Amazon, Facebook, Google, Apple'.split(', ')
+
+        
         self.assertEqual(faang, ['Amazon', 'Apple', 'Facebook', 'Google', 'Netflix'])
 
         #
@@ -16,6 +18,7 @@ class TestSkilz(unittest.TestCase):
         # ===========================================
         bosses = ['Bezos', 'Cook', 'Zuck', 'Pichai', 'Hastings']
         salaries = [81_840, 3_000_000, 1, 2_000_000, 700_000]
+
 
         self.assertEqual(salaries, [3000000, 2000000, 700000, 81840, 1])
 
